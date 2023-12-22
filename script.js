@@ -23,11 +23,11 @@ let tracks = document.querySelector(".modal-body")
       </div>
       </div>`
 
-      tracks.innerHTML += `<div class="d-flex align-items-center">
+      tracks.innerHTML += `<div class="d-flex align-items-center mb-3">
       <div>
       <img src="${card.album.cover_small}" class="card-img-top" alt="...">
       </div>
-      <p>${card.album.title}</p>
+      <p class="ms-3 text-white">${card.album.title}</p>
       </div>
       `
     }
